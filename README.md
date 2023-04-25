@@ -26,3 +26,12 @@ The WeatherBox component displays the weather information for a single day.
 The MainWeatherWindow component is the main display area of the application. It displays the weather information for the current day, along with an input box for entering a city name and a list of WeatherBox components for the next 4 days.
 
 The getDayIndices function is used to get the indices of the forecasts for the next 5 days from the API data. It iterates over each forecast in the data array and checks if it is at 12:00 pm and has a different date than the previous forecast. It then adds the index of the forecast to the dayIndices array.
+
+
+
+
+https://user-images.githubusercontent.com/110572038/234407627-ef0c5424-6865-444e-9a38-7040ad9f4724.mp4
+
+
+
+
