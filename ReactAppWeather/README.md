@@ -1,26 +1,23 @@
 # Weather Forecast App
 
-Description
+### Description
 This is a React application that uses the OpenWeatherMap API to display weather information for a user-specified city. The application displays weather information for the next 5 days, with a description of the weather, an icon representing the weather conditions, and the temperature in Celsius.
 
-Installation
+### Installation
 To use this application, you will need to have Node.js and npm installed on your computer. Clone this repository, and then run the following command in your terminal:
 
-Copy code
-npm install
+## npm install
 This will install all the dependencies required to run the application.
 
-Usage
+### Usage
 To run the application, run the following command in your terminal:
 
-sql
-Copy code
-npm start
+## npm start
 This will start the development server and open the application in your default browser.
 
 To use the application, enter the name of a city in the input box and click the "Get Weather" button. The application will make a call to the OpenWeatherMap API and display the weather information for the specified city.
 
-Code Explanation
+### Code Explanation
 The App component is the main component of the application. It has a state that contains the current city and an array of 5 objects, each representing a day's weather information.
 
 The CityInput component allows the user to enter the name of a city and make an API call to get the weather information for that city.
